@@ -1,0 +1,5 @@
+# Runtime dependencies for SkyBlaze.
+# The project currently uses only the Python standard library.
+# Turtle graphics requires tkinter, which is included with many Python installations.
+# On some Linux distributions, tkinter may need to be installed separately
+# (e.g. python3-tk).
