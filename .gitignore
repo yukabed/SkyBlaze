@@ -224,3 +224,7 @@ __marimo__/
 .vscode/
 .DS_Store
 Thumbs.db
+
+
+
+.venv-1/
