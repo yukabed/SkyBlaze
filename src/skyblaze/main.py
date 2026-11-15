@@ -1,4 +1,4 @@
-#SkyBlaze by Mohammadreza & Yukabed
+# SkyBlaze by Mohammadreza & Yukabed
 # ---------------------------------------------------------------------------
 # Upgraded version
 #   1. Main menu with 3 difficulty levels (Easy / Medium / Hard)
@@ -27,8 +27,7 @@ def main():
     game.run()
 
 
-if __name__ == "main":
-    try:
-        main()
-    except (turtle.Terminator, tk.TclError):
-        pass                                   # window was closed
+try:
+    main()
+except (turtle.Terminator, tk.TclError):
+    pass  # window was closed
